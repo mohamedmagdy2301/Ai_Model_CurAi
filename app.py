@@ -42,7 +42,7 @@ except Exception as e:
 
 # ===================== Image Model =====================
 try:
-    image_model = tf.keras.models.load_model("image/Brain Tumors.h5")
+    image_model = tf.keras.models.load_model("image/Brain_Tumors.h5")
     class_labels = ['glioma', 'meningioma', 'notumor', 'pituitary']
 except Exception as e:
     raise
